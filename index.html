@@ -20,7 +20,30 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="contact-menu">
+                    <button id="contactBtn">
+                        Contact <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <div id="contactDropdown" class="dropdown">
+                            <a href="mailto:richadhusiya@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>Email</a>
+
+                            <a href="https://github.com/Richadhusiya15" target="_blank">
+                                    <i class="fa-brands fa-github"></i>GitHub
+                            </a>
+
+                            <a href="htpps://www.linkedin.com/in/richadhusiya15" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>LinkedIn
+                            </a>
+
+                            <a href="Richa Dhusiya ATS.pdf" download>
+                                <i class="fa-solid fa-file-arrow-down"></i>Resume
+                            </a>
+
+
+                        </div>
+                </li>
             </ul>
 
         </nav>
@@ -38,7 +61,7 @@
 
         </div>
         <div class="profile">
-            <img src="me.jpeg" alt="profile picture">
+            <img src="profile.jpeg" alt="profile picture">
         </div>
 
     </section>
@@ -251,6 +274,128 @@
 
     <section id="projects">
 
+        <section id="projects">
+
+    <h2>Projects</h2>
+
+    <!-- Project 01 -->
+
+    <div class="project-item">
+
+    <div class="project-image">
+        <img src="projects/project1.png" 
+             alt="Password manager screenshot">
+
+             <div class="project-links">
+
+        
+                <a href="https://github.com/Richadhusiya15/Secure-Password-Manager-Python.git">GitHub Repository</a>
+
+            </div>
+
+        </div>
+
+         <div class="project-details">
+
+        <p class="project-number">PROJECT 01</p>
+
+        <h3>Secure Password Manager</h3>
+
+    
+       
+            
+                <h4>Description</h4>
+
+                <ul>
+                    <li>Developed a desktop-based Password Management Application using python and Tkinter.</li>
+                    <li>Helps users securely store, manage, and retrieve their website credentials.</li>
+                    <li>Implemented JSON-based local storage for saving password data.</li>
+                </ul>
+
+            
+
+            
+                <h4>Features</h4>
+
+                <ul>
+                    <li>Generate  Strong random passwords.</li>
+                    <li>Save website credentials with username and password.</li>
+                    <li>Search  stored passwords easily.</li>
+                    <li>Show/Hide passwords functionality.</li>
+                    <li>Copy password quick access.</li>
+                    <li>User-friendly graphical interface.</li>
+                </ul>
+            
+
+                <h4>Tech Stack</h4>
+
+                <span>Python |</span>
+                <span>Tkinter |</span>
+                <span>JSON |</span>
+                <span>Pyperclip</span>
+
+    
+        </div>
+
+    </div>
+
+    <!-- Project 02 -->
+
+    <div class="project-item reverse">
+
+        <div class="project-image">
+            <img src="projects/project2.png" 
+             alt="Personal Portfolio Website">
+             <div class="project-links">
+
+                <a href="https://richadhusiya15.github.io/my-portfolio/">Live Website</a>
+                <a href="https://github.com/Richadhusiya15/my-portfolio.git">GitHub Repository</a>
+
+            </div>
+        </div>
+
+              <div class="project-details">
+
+        <p class="project-number">PROJECT 02</p>
+
+        <h3>Personal Portfolio Website</h3>
+
+
+                <h4>Description</h4>
+
+                <ul>
+                    <li>Designed and developed a personal  portfolio website to showcase my skills, projects, and certifications.</li>
+                    <li>Created  a clean and professional interface to build an online presence.</li>
+                    <li>Implemented different sections including About, Skills, Projects, Certifications, and Contact.</li>
+                </ul>
+
+           
+                <h4>Features</h4>
+
+                <ul>
+                    <li>Responsive and user-friendly design.</li>
+                    <li>Smooth navigation between sections.</li>
+                    <li>Skills and certification showcase.</li>
+                    <li>Project presentation with GitHub Links.</li>
+                    <li>Contact section for professional communication.</li>
+                </ul>
+
+
+                <h4>Tech Stack</h4>
+
+                
+
+                <span>HTML |</span>
+                <span>CSS |</span>
+                <span>JavaScript</span>
+
+                
+
+        </div>
+
+    </div>
+
+
     </section>
     <div class="divider"></div>
 
@@ -258,7 +403,7 @@
         <h2>Certification & Acheivements</h2>
         <div class="certification-item">
             <h3>Python Essentials 1</h3>
-            <p>Issued by Python Institute in partnership with Cisco Networking Academy.</p>
+            <p>Issued by <b>Python Institute</b> in partnership with <b>Cisco Networking Academy</b>.</p>
             <p>Covered Python fundamentals, data types, loops, functions, and problem solving concepts.
             </p>
            <a href="PythonEssentials1.pdf" target="_blank" class="cert-link">
@@ -269,11 +414,34 @@
         <div class="certification-item">
             <h3>Basics of Python Programming</h3>
             <p>Cambridge International Qualifications (CIQ) & UniAthena</p>
-            <p>Successfully completed foundatiomal python programming concepts.</p>
+            <p>Successfully completed foundational python programming concepts.</p>
             <a href="Basic Python Certificate .pdf" target="_blank" class="cert-link">
    View Certificate →
 </a>
         </div>
+
+        <div class="certification-item">
+            <h3>Deloitte Data Analytics Job Simulation</h3>
+            <p>Issued by <b>Deloitte</b> through <b>Forage</b>.</p>
+            <p>Gained hands-on experience in data analytics, data interpretation, and creating data driven insights  through  real-world business scenarios.
+            </p>
+           <a href="Data Analytic Certificate Deloitte.pdf" target="_blank" class="cert-link">
+   View Certificate →
+</a>
+
+        </div>
+
+        <div class="certification-item">
+            <h3>Data Visualization Empowering Business With Effective Insights</h3>
+            <p>Issued by <b>TATA</b> through <b>Forage</b>.</p>
+            <p>Successfully completed a virtual experience program focused on Power BI, data visualization, dashboard creation, and extracting business insights from data.
+            </p>
+           <a href="tata virtual intern.pdf" target="_blank" class="cert-link">
+   View Certificate →
+</a>
+
+        </div>
+
     </section>
 
     <div class="divider"></div>
@@ -299,8 +467,6 @@
         </div>
 
     </section>
-    <div class="divider"></div>
-
-
+<script src="script.js"></script>
 </body>
 </html>

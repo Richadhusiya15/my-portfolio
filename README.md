@@ -2,4 +2,4 @@
 
 A personal portfolio built using HTML, CSS and JavaScript.
 
-Live: https://your-link.com
+Live: https://richadhusiya15.github.io/my-portfolio/
