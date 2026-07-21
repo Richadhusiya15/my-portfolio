@@ -284,7 +284,8 @@
 
     <div class="project-image">
         <img src="projects/project1.png" 
-             alt="Password manager screenshot">
+             alt="Password manager screenshot"
+             onclick="openImage(this.src)">
 
              <div class="project-links">
 
@@ -345,7 +346,9 @@
 
         <div class="project-image">
             <img src="projects/project2.png" 
-             alt="Personal Portfolio Website">
+             alt="Personal Portfolio Website"
+             onclick="openImage(this.src)">
+
              <div class="project-links">
 
                 <a href="https://richadhusiya15.github.io/my-portfolio/">Live Website</a>
@@ -444,6 +447,13 @@
 
     </section>
 
+
+
+
+<div id= "imageModal" class="image-modal">
+    <span class="close">&times;</span>
+    <img id="modalImg" class="modal-content">
+</div>
 
 <script src="script.js"></script>
 </body>
