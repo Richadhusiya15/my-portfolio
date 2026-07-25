@@ -26,7 +26,9 @@ modal.onclick =  function(e){
 
 const btn = document.getElementById("contactBtn");
 const dropdown = document.getElementById("contactDropdown");
+
 btn.addEventListener("click", function(e){
+    e.preventDefault();
     e.stopPropagation();
     dropdown.classList.toggle("show");
 
@@ -42,4 +44,22 @@ document.addEventListener("keydown", function(e){
     if(e.key === "Escape"){
         modal.style.display = "none";
     }
+});
+
+// Responsive Navbar 
+
+const menuToggle  =  document.getElementById("menuToggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+// close nav after menu click 
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+        dropdown.classList.remove("show");
+        navLinks.classList.remove("active");
+    });
 });
